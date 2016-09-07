@@ -1,0 +1,11 @@
+nohup: ignoring input
+inited over
+Traceback (most recent call last):
+  File "compute_source_list.py", line 134, in <module>
+    http_server.listen(10081)
+  File "/usr/lib64/python2.6/site-packages/tornado-4.4b1-py2.6-linux-x86_64.egg/tornado/tcpserver.py", line 126, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/usr/lib64/python2.6/site-packages/tornado-4.4b1-py2.6-linux-x86_64.egg/tornado/netutil.py", line 194, in bind_sockets
+    sock.bind(sockaddr)
+  File "<string>", line 1, in bind
+socket.error: [Errno 98] Address already in use
